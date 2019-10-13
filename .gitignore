@@ -1,0 +1,8 @@
+.vscode
+# node directories and files
+**/node_modules/
+**/npm-debug.log
+# Don't check in the certs
+registry/certs/*
+
+
