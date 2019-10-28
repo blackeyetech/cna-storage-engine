@@ -1,7 +1,11 @@
 import { CNStorageEngine } from "@cn-shell/storage-engine";
 
-// Create the new CNStorageEngine
-let app = new CNStorageEngine("StorageEngine");
+(async () => {
+  // Create the new CNStorageEngine
+  let app = new CNStorageEngine("StorageEngine");
 
-// Now start storing!!
-app.init();
+  // Now start storing!!
+  await app.init();
+
+  app.info("Now Storing!!");
+})();

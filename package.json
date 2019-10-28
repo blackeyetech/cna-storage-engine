@@ -55,7 +55,7 @@
     "prettier": "^1.18.2"
   },
   "dependencies": {
-    "@cn-shell/storage-engine": "^1.1.0",
+    "@cn-shell/storage-engine": "^1.2.0",
     "typescript": "^3.6.2"
   },
   "repository": {
